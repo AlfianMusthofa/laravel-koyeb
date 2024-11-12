@@ -2,7 +2,7 @@
 
 @section('container')
     <div class="w-full h-[100vh] flex justify-center items-center">
-        <div class="flex border rounded-[5px]">
+        <div class="flex border rounded-[5px] shadow-md">
             <img src="{{ asset('assets/bg.jpg') }}" alt="" class="w-[450px]">
             <div class="p-[10px] w-[450px] flex flex-col justify-center">
                 <div class="flex items-center gap-[5px] justify-center">
@@ -10,10 +10,10 @@
                     <p class="text-[12px] font-semibold">KostanKu</p>
                 </div>
                 <p class="text-center mt-[20px] text-[18px] font-semibold text-[#123b61]">Hai, Selamat Datang Kembali!</p>
-                <p class="text-center mt-[5px] text-[11px] font-medium text-gray-400">Baru di KostanKu? <a href="#"
-                        class="underline text-[#1880e1]">Daftar
+                <p class="text-center mt-[5px] text-[11px] font-medium text-gray-400">Baru di KostanKu? <a
+                        href="/signup-pencari" class="underline text-[#1880e1]">Daftar
                         Gratis</a></p>
-                <form action="" method="post" class="text-center mt-[30px] flex flex-col gap-[10px] items-center">
+                <form action="/home" method="post" class="text-center mt-[30px] flex flex-col gap-[10px] items-center">
                     <input type="text" name="name" id=""
                         class="border w-[300px] text-[13px] p-[8px] rounded-[3px] outline-[#1880e1]" placeholder="Nama">
                     <input type="password" name="password" id=""

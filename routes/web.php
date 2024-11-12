@@ -18,4 +18,13 @@ Route::get('/', function () {
    return view('role');
 });
 
-Route::get('/login-pencari', [AuthController::class, 'login']);
+Route::get('/login-pencari', function () {
+   return view('login');
+});
+Route::get('/signup-pencari', function () {
+   return view('signup');
+});
+
+Route::get('/home', function () {
+   return view('home');
+});
