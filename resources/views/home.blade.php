@@ -51,7 +51,7 @@
         </div>
 
         <div class="container mx-auto py-[20px]">
-            <div class="border p-[15px] w-[900px] pl-[20px] rounded-[10px]">
+            <div class="border p-[15px] w-[900px] pl-[20px] rounded-[10px] shadow-md">
                 <a href="#">
                     <div class="flex flex-col gap-[8px]">
                         <h1 class="text-[25px] text-[#484848] font-bold">Coba cara baru bayar kostan!</h1>
@@ -64,7 +64,7 @@
             </div>
         </div>
 
-        <div class="container mx-auto flex justify-between items-center border p-[15px] rounded-[10px]">
+        <div class="container mx-auto flex justify-between items-center border p-[15px] rounded-[10px] shadow-md">
             <div>
                 <h1 class="text-[25px] text-[#484848] font-bold">Kost dikelola KostanKu</h1>
                 <p class="text-[#484848]">Disurvey langsung oleh KostanKu, Lokasi terverifikasi, Bangunan kost lolos
@@ -104,7 +104,7 @@
                 <div class="mt-[15px]">
                     <div class="flex gap-[10px] overflow-hidden overflow-x-scroll flex-nowrap">
                         <a href="#">
-                            <div class="w-[267px] border">
+                            <div class="w-[267px]">
                                 <img src="{{ asset('assets/banner.jpg') }}" class="h-[150px] rounded-[7px]">
                                 <p class="border w-[50px] text-[14px] text-center mt-[8px] text-[#484848]">Putri</p>
                                 <div class="mt-[3px]">
@@ -125,7 +125,7 @@
                             </div>
                         </a>
                         <a href="#">
-                            <div class="w-[267px] border">
+                            <div class="w-[267px]">
                                 <img src="{{ asset('assets/banner.jpg') }}" class="h-[150px] rounded-[7px]">
                                 <p class="border w-[50px] text-[14px] text-center mt-[8px] text-[#484848]">Putri</p>
                                 <div class="mt-[3px]">
@@ -147,37 +147,6 @@
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="container mx-auto mt-[20px]">
-            <p class="text-[18px] text-[#484848] font-semibold">Area Kost Terpopuler</p>
-            <div class="grid grid-cols-4 gap-[10px] mt-[15px]">
-                <a href="#" class="relative">
-                    <img src="{{ asset('assets/surabaya.jpg') }}" class="w-[266px] h-[200px] rounded-[6px]">
-                    <p class="absolute text-white font-semibold text-[25px] inset-0 flex justify-center items-center">
-                        Surabaya</p>
-                </a>
-                <a href="#" class="relative">
-                    <img src="{{ asset('assets/semarang.jpg') }}" class="w-[266px] h-[200px] rounded-[6px]">
-                    <p class="absolute text-white font-semibold text-[25px] inset-0 flex justify-center items-center">
-                        Semarang</p>
-                </a>
-                <a href="#" class="relative">
-                    <img src="{{ asset('assets/semarang.jpg') }}" class="w-[266px] h-[200px] rounded-[6px]">
-                    <p class="absolute text-white font-semibold text-[25px] inset-0 flex justify-center items-center">
-                        Semarang</p>
-                </a>
-                <a href="#" class="relative">
-                    <img src="{{ asset('assets/semarang.jpg') }}" class="w-[266px] h-[200px] rounded-[6px]">
-                    <p class="absolute text-white font-semibold text-[25px] inset-0 flex justify-center items-center">
-                        Semarang</p>
-                </a>
-                <a href="#" class="relative">
-                    <img src="{{ asset('assets/semarang.jpg') }}" class="w-[266px] h-[200px] rounded-[6px]">
-                    <p class="absolute text-white font-semibold text-[25px] inset-0 flex justify-center items-center">
-                        Semarang</p>
-                </a>
             </div>
         </div>
     </div>
